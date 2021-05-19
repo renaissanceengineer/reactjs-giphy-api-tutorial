@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.error {
+  color: #b50000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.input-field {
+  font-size: 20px;
+  vertical-align: middle;
+  transition: .5s;
+  border-width: 2px;
+  margin: 5px;
+}
+
+.input-field:focus {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  outline: none;
+}
+
+.input-field:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+}
+
+.submit-btn {
+  background-color: rgb(19, 209, 235);
+  color: #fff;
+  padding: 6px 30px;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(10, 130, 146);
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif-item {
+  flex-basis: 19%;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .gif-item {
+    flex-basis: 31%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gif-item {
+    flex-basis: 48%;
+  }
+}
